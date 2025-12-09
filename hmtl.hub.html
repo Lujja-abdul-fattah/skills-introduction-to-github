@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DeanHub — HTML Version</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #064e3b;
+      color: #f7f0db;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: #0f766e;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .logo-circle {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: #c59d00;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #064e3b;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    nav a {
+      color: #f7f0db;
+      margin-left: 15px;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+    nav a:hover {
+      background: #064e3b;
+    }
+    .container {
+      max-width: 1150px;
+      margin: auto;
+      padding: 20px;
+    }
+    .section {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      border: 1px solid #0f766e;
+      border-radius: 12px;
+      margin-top: 25px;
+    }
+    .ayah {
+      padding: 15px;
+      background: rgba(0,0,0,0.25);
+      border: 1px solid #0f766e;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    .arabic {
+      text-align: right;
+      font-size: 1.7rem;
+      font-family: 'Amiri', serif;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center;
+      background: #0f766e;
+      color: #f7f0db;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-circle">DH</div>
+    <div>
+      <h2 style="margin:0">DeanHub</h2>
+      <small>Qur'an • Tafsir • Hadith • Scholars</small>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#quran">Qur'an</a>
+    <a href="#hadith">Hadith</a>
+    <a href="#scholars">Scholars</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <!-- Quran Section -->
+  <div id="quran" class="section">
+    <h2>Surah Al-Fatiha <span style="opacity:0.7">ٱلْفَاتِحَة</span></h2>
+    <p>Surah 1 — 7 ayahs</p>
+
+    <!-- Ayahs -->
+    <div class="ayah">
+      <div class="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ (1)</div>
+      <p>In the name of Allah, the Entirely Merciful, the Especially Merciful.</p>
+    </div>
+
+    <div class="ayah">
+      <div class="arabic">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَالَمِينَ (2)</div>
+      <p>All praise is due to Allah, Lord of the worlds.</p>
+    </div>
+
+    <div class="ayah">
+      <div class="arabic">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ (3)</div>
+      <p>The Entirely Merciful, the Especially Merciful.</p>
+    </div>
+
+    <div class="ayah">
+      <div class="arabic">مَـٰلِكِ يَوْمِ ٱلدِّينِ (4)</div>
+      <p>Sovereign of the Day of Recompense.</p>
+    </div>
+
+    <div class="ayah">
+      <div class="arabic">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (5)</div>
+      <p>It is You we worship and You we ask for help.</p>
+    </div>
+
+    <div class="ayah">
+      <div class="arabic">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ (6)</div>
+      <p>Guide us to the straight path.</p>
+    </div>
+
+    <div class="ayah">
+      <div class="arabic">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ (7)</div>
+      <p>The path of those upon whom You have bestowed favor.</p>
+    </div>
+  </div>
+
+  <!-- Hadith Section -->
+  <div id="hadith" class="section">
+    <h2>Hadith (Sample)</h2>
+    <div class="ayah">
+      <p>"None of you will have faith till he loves me more than his father, his children and all mankind."</p>
+      <small>Sahih Bukhari 15</small>
+    </div>
+
+    <div class="ayah">
+      <p>Ibn `Abbas said: "Whoever reads and acts upon the Qur'an will be honored."</p>
+      <small>Ibn `Abbas — Athar</small>
+    </div>
+  </div>
+
+  <!-- Scholars -->
+  <div id="scholars" class="section">
+    <h2>Scholars & Sayings</h2>
+    <p><b>Ibn `Abbas:</b> Known for deep tafsir and explanations of Qur'an.</p>
+    <p>More scholars can be added as needed.</p>
+  </div>
+
+</div>
+
+<footer>
+  Contact: Lujja Abdul Fattah • +256 756 035814 • lujjaabdulfattah@gmail.com<br>
+  © DeanHub
+</footer>
+
+</body>
+</html>
